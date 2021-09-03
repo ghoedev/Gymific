@@ -7,7 +7,7 @@
 
         <variable
             name="category"
-            type="com.ersiver.gymific.model.WorkoutCategory" />
+            type="com.ghoe.gymfit.model.WorkoutCategory" />
 
     </data>
 

@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="com.ersiver.gymific.ui.arms.ArmsViewModel" />
+            type="com.ghoe.gymfit.ui.arms.ArmsViewModel" />
     </data>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout

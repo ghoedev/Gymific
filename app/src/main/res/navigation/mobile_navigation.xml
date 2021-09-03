@@ -7,13 +7,13 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.ersiver.gymific.ui.home.HomeFragment"
+        android:name="com.ghoe.gymfit.ui.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/view_pager_fragment"
-        android:name="com.ersiver.gymific.ui.viewpager.ViewPagerFragment"
+        android:name="com.ghoe.gymfit.ui.viewpager.ViewPagerFragment"
         android:label="@string/title_workout"
         tools:layout="@layout/fragment_view_pager">
         <action
@@ -23,7 +23,7 @@
 
     <fragment
         android:id="@+id/navigation_favourite"
-        android:name="com.ersiver.gymific.ui.favourite.FavouriteFragment"
+        android:name="com.ghoe.gymfit.ui.favourite.FavouriteFragment"
         android:label="@string/title_favourite"
         tools:layout="@layout/fragment_favourite">
         <action
@@ -32,12 +32,12 @@
     </fragment>
     <fragment
         android:id="@+id/navigation_detail"
-        android:name="com.ersiver.gymific.ui.detail.DetailFragment"
+        android:name="com.ghoe.gymfit.ui.detail.DetailFragment"
         android:label="@string/title_detail"
         tools:layout="@layout/fragment_detail">
         <argument
             android:name="workout"
-            app:argType="com.ersiver.gymific.model.Workout" />
+            app:argType="com.ghoe.gymfit.model.Workout" />
     </fragment>
 
 </navigation>

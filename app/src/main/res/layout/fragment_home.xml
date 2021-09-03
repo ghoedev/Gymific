@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="com.ersiver.gymific.ui.home.HomeViewModel" />
+            type="com.ghoe.gymfit.ui.home.HomeViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

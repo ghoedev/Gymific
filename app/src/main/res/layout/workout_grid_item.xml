@@ -7,7 +7,7 @@
 
         <variable
             name="workout"
-            type="com.ersiver.gymific.model.Workout" />
+            type="com.ghoe.gymfit.model.Workout" />
 
         <variable
             name="clickListener"

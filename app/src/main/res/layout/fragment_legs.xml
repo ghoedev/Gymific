@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="com.ersiver.gymific.ui.legs.LegsViewModel" />
+            type="com.ghoe.gymfit.ui.legs.LegsViewModel" />
 
     </data>
 

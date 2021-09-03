@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.ersiver.gymific">
+    package="com.ghoe.gymfit">
 
     <application
-        android:name=".GymificApp"
+        android:name="com.ghoe.gymfit.GymificApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/GymificTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="com.ghoe.gymfit.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +24,13 @@
         <provider
             android:name="androidx.work.impl.WorkManagerInitializer"
             android:authorities="${applicationId}.workmanager-init"
-            tools:node="remove" />
+            tools:node="remove"
+            android:enabled="false"
+            android:exported="false"/>
+        <meta-data android:name="com.google.android.gms.version" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2513915580660974~2144749473"/>
     </application>
 
 </manifest>

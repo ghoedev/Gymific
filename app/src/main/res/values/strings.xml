@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Gymific</string>
+    <string name="app_name">Gymfit</string>
     <string name="action_start">Start</string>
 
     <string name="content_description_category_arms">Arms category image</string>
@@ -9,6 +9,12 @@
     <string name="content_description_play">Play button</string>
     <string name="content_description_stop">Stop button</string>
     <string name="content_description_pause">Pause button</string>
+
+    <string name="ad_unit_id">ca-app-pub-2513915580660974/5126136030</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-2513915580660974/6275210955</string>
+
+    <string name="app_open_id">ca-app-pub-2513915580660974/6259733235</string>
 
     <string name="navigate_up">Navigate up</string>
 

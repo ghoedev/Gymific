@@ -11,13 +11,14 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.ersiver.gymific"
+        applicationId "com.ghoe.gymfit"
         minSdkVersion 26
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
 
-        testInstrumentationRunner "com.ersiver.gymific.CustomTestRunner"
+        testInstrumentationRunner "com.ghoe.gymfit.CustomTestRunner"
     }
 
     buildTypes {
@@ -72,7 +73,7 @@ dependencies {
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'androidx.preference:preference:1.1.1'
     implementation 'androidx.fragment:fragment-ktx:1.2.5'
-
+    implementation 'com.google.android.gms:play-services-ads:19.8.0'
     def lifecycle_version = "2.2.0"
     // Lifecycle
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"

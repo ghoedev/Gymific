@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.ersiver.gymific.ui.cardio.CardioViewModel" />
+            type="com.ghoe.gymfit.ui.cardio.CardioViewModel" />
     </data>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
